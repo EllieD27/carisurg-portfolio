@@ -181,6 +181,60 @@ The repository includes:
 - Saved plot images generated from the notebook
 
 
+---
+
+# Day 4 Task
+
+## Objective
+The Day 4 task deliverable involves writing a summarized description of chosen vital sign: Heart Rate:
+
+## Heart Rate
+
+According to `Dr. Mandal (2023)`, the heart rate is defined as *the number of times a person’s heart contracts and beats per minute (bpm).* The heart essentially beats to supply oxygen throughout the whole body. Based on the need for oxygen in each situation or state, the heart rate would adapt to suit. The heart’s beating behaviour can provide critical information about the cardiovascular function and also overall psychological condition. 
+Heart rate is usually measured by finding the pulse in the body. This pulse rate is felt at any part of the body where the arterial pulsation is transmitted to the skin surface, especially when compressed. Some of the main pulse sites include: *temporal artery by the forehead sides, facial artery at the angle of the jaws, carotid artery in the neck*, and also the *radial artery by the wrist.*
+In a normal adult, the average pulse range is from 60 to 100 bpm. Therefore, pulses below 60 can signify *bradycardia* and pulses above 100bpm can signify *tachycardia*. With reference to triaging, the heart rate is one of the main vitals used to help identify patients experiencing stress, shock, infection, and other critical medical conditions needing immediate care.
+
+
+*Reference source:
+https://www.news-medical.net/health/What-is-Heart-Rate.aspx*
+
+---
+
+# Day 5 Task
+
+## Objective
+The Day 5 task deliverable involves writing a summarized description of any unmentioned vital sign: Cholesterol:
+
+## Cholesterol
+Cholesterol is *a type of fat that is found in the blood, most of which is produced by the liver*. This serves many important functions such as *producing hormones* and also *vitamin D*. Cholesterol also consists of different components. For instance, *High-Density Lipoprotein (HDL)* also known as *‘good cholesterol’* carries extra cholesterol away from the blood and cells, back to the liver which breaks it down, assisting with the protection of the heart and blood vessels; *Low-Density Lipoprotein (LDL)*, also known as *‘bad cholesterol’* can lead to serious health problems like stroke, heart disease, and dementia, when too much clogs the blood vessels; and then the total cholesterol which is the HDL and LDL combined.
+Cholesterol levels are usually measured in *milligrams per decilitre (mg/dL)* and are used to assess cardiovascular health. The desirable total cholesterol level is averaged to be less than ***200 mg/dL***. Higher values would then indicate there is increased heart disease and stroke. Therefore, in reference to triaging, abnormal cholesterol levels are not usually treated as an ‘urgent’ emergency, but they can provide important background information about a patient’s long-term cardiovascular risk and overall health status.
+
+
+
+*Reference source:
+https://www.alzheimersresearchuk.org/dementia-information/dementia-risk/cholesterol-and-dementia-risk/#:~:text=Having%20high%20cholesterol%20in%20our,people%20who%20develop%20it%20now.*
+
+---
+
+# Day 6 Task
+
+## Objective
+The Day 6 task deliverable involves the final deliverable which is writing a pseudocode that describes how a digital triaging model will work and how patients are categorized into respective risk levels. A combination of pseudocode and explanations were done to effectively display the information:
+
+## ED Triage Pseudocode Attempt and System Explanation: 
+
+<img width="585" height="582" alt="image" src="https://github.com/user-attachments/assets/a9cb7ad2-f4a1-4325-8252-2bdea5948de3" />
+<img width="529" height="636" alt="image" src="https://github.com/user-attachments/assets/1dd92f4b-a995-4004-b110-db35abfb6b54" />
+<img width="467" height="245" alt="image" src="https://github.com/user-attachments/assets/e6313edb-4e2e-491d-94a3-5a08e6d16a9a" />
+
+
+## System Explanation 
+The proposed digital triaging system is designed to assist emergency department staff by rapidly processing patient information and assigning a clinical risk category. The system begins by collecting patient demographic information and vital signs, including temperature, pulse, blood pressure, oxygen saturation, respiratory rate, and Glasgow Coma Scale (GCS) score. These measurements are commonly used during emergency department triage to assess patient stability and urgency of care.
+Once the patient data is received, the system information is validated and cleaned to identify and rectify missing or abnormal entries. If critical information is unavailable, the patient is flagged for direct nurse review to reduce the risk of incorrect automated categorisation.
+The system then compares the patient’s vital signs against predefined clinical thresholds. Patients with severely abnormal measurements, such as very low GCS scores, extremely low oxygen saturation, severe hypotension, or dangerously elevated pulse rates, are categorised as critical priority cases requiring immediate medical attention. Patients with moderately abnormal vital signs are categorised into high or moderate risk groups depending on the severity of the findings.
+After processing the data, the system assigns a final triage category and stores the information in the hospital database. The assigned risk level can then be displayed on the emergency department dashboard to support nurses and physicians in prioritising patient care efficiently.
+
+
 ## Author:
 
 Eliana Dookhoo
