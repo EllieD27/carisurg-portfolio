@@ -87,7 +87,7 @@ Derive clinically meaningful plots from the Emergency Triage Dataset to support 
 
 **Key finding:** Younger patients show a wider, lighter distribution. The heaviest cluster appears between ages 65–90 with DBP between 50–80 mmHg, suggesting that older patients tend to present with diastolic blood pressure below 80 mmHg — indicating increased susceptibility to cardiovascular risk.
 
-*(See: `dbp_vs_age.png`)*
+*(See: `docs/images/dbp_vs_age.png`)*
 
 ---
 
@@ -101,7 +101,7 @@ Derive clinically meaningful plots from the Emergency Triage Dataset to support 
   - `100 bpm` — upper boundary of normal heart rate
   - Danger zones indicated for **Bradycardia** (<60 bpm) and **Tachycardia** (>100 bpm)
 
-*(See: `pulse_histogram.png`)*
+*(See: `docs/images/pulse_histogram.png`)*
 
 ---
 
@@ -116,7 +116,7 @@ Derive clinically meaningful plots from the Emergency Triage Dataset to support 
   - `Normal Adult DBP = 80 mmHg`
 - Thresholds highlight a potential clinical review zone for patients susceptible to heart failure or cardiovascular disease
 
-*(See: `dbp_vs_pulse.png`)*
+*(See: `docs/images/dbp_vs_pulse.png`)*
 
 ---
 
