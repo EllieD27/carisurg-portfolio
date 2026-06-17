@@ -11,28 +11,23 @@
 This repository is a structured record of weekly clinical data work. Each week produces two outputs: a **notebook** (the analysis) and a **memo** (the plain-English summary of findings). You do not need to open the notebook to understand the conclusions — the memo is written for you.
 
 ---
+## How to Use This Repository
 
-## Contents at a Glance
+**For clinical reviewers — no installation needed:**
+1. Click any memo link in the table above
+2. Read the memo directly in your browser — no coding knowledge required
+3. Plot images are saved in `docs/images/` if you wish to view them separately
 
-| Week | Notebook | Memo | Topic |
-|------|----------|------|-------|
-| 0 | [`notebooks/week-0`](notebooks/) | [`docs/week-0-memo.md`](docs/week-0-memo.md) | Clinical triage data — exploratory analysis, visualisations & triage model design |
-| 1 | [`docs/week-1-memo.md`](docs/) | AI-assisted emergency triage |
-
----
-
-## Where to Start
-
-**If you are a clinical reviewer, start here:**
-
-1. **Week 0 Memo** → `docs/week-0-memo.md`  
-   Covers six days of work: data cleaning, clinical visualisations, vital sign overviews, and a prototype digital triage model. No code, no jargon.
-
-2. **Week 1 Memo** → `docs/week-1-memo.md`  
-   A structured review of AI-assisted triage in emergency settings — what the evidence suggests and what the limitations are.
-
-The notebooks in `notebooks/` contain the underlying analysis for those who wish to inspect the methodology.
-
+**For technical reviewers — to run the notebooks locally:**
+1. Clone the repository:
+```bash
+   git clone https://github.com/EllieD27/carisurg-portfolio.git
+```
+2. Install dependencies:
+```bash
+   pip install -r requirements.txt
+```
+3. Open the relevant notebook in `notebooks/` using Jupyter or Google Colab and run each cell sequentially
 ---
 
 ## Folder Structure
@@ -49,18 +44,6 @@ carisurg-portfolio/
 ├── .gitignore        # Files Git does not track
 └── requirements.txt  # Exact software versions used
 ```
-
----
-
-## How to Read the Memos
-
-Each memo follows the same structure:
-
-- **Background** — why this question matters clinically
-- **What the data shows** — key findings in plain language
-- **Limitations** — what the analysis cannot tell us
-- **Recommendation** — a clear, actionable conclusion
-
 ---
 
 ## A Note on the Data
