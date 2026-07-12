@@ -30,6 +30,13 @@ This repository is a structured record of weekly clinical data work. Each week p
 3. Open the relevant notebook in `notebooks/` using Jupyter or Google Colab and run each cell sequentially
 ---
 
+## Dataset
+Yale EMMLC ED Triage Dataset — 55,121 adult ED encounters  
+⚠️ Raw CSV is excluded from this repo (.gitignore)
+
+## Random Seed
+All models use random_state = 27 for reproducibility.
+
 ## Folder Structure
 
 ```
