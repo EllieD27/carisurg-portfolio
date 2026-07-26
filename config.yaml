@@ -1,0 +1,34 @@
+# Winner: Random Forest + ESI-1 threshold tuning (see docs/week7-decision-journal.pdf)
+
+seed: 27
+
+data:
+  raw_path: "data/yaleemmlc_admissionprediction_triage.csv"
+  target: "esi"
+
+split:
+  test_size: 0.2
+  stratify: true
+
+# The pinned model. "gradient_boosting" is kept here only as the runner-up
+# reference from the Week 7 benchmark — random_forest is what scripts/train.py
+# trains and ships by default.
+final_model: "random_forest"
+
+models:
+  random_forest:
+    n_estimators: 300
+    max_depth: null
+    class_weight: "balanced"
+    min_samples_leaf: 2
+
+  gradient_boosting:   # runner-up, not deployed — kept for audit trail only
+    n_estimators: 300
+    learning_rate: 0.1
+
+esi1_threshold:
+  # ESI-1 decision threshold = this fraction x mean ESI-1 probability
+  # among TRUE ESI-1 patients in the training distribution.
+  # Derived from training data only — never from test data.
+  scale: 0.5
+  esi1_label: 1
