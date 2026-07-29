@@ -1,7 +1,7 @@
 # Model-Selection Results Table
 
 Audit trail for Martina Griffith (Clinical IT Lead) — every model trained across Weeks 6–7,
-one row each, winner marked. Full reasoning: [`docs/week7-decision-journal.md`](docs/week-decision-journal.md).
+one row each, winner marked. Full reasoning: [`docs/week7-decision-journal.pdf`](week7-decision-journal.pdf).
 
 Dataset: Yale EMMLC ED Triage Dataset (55,121 encounters) · Seed: 27 · Test set: 11,025 encounters
 Primary metric ★: **ESI-1 Recall** — missing a critically ill patient is not recoverable; a false alarm is correctable.
@@ -27,4 +27,4 @@ set it, preserving evaluation integrity.
 Runner-up pinned for reference: Gradient Boosting has the highest raw accuracy (0.627) but the
 worst ESI-1 Recall of the three complex models (0.188) and Low interpretability — rejected for
 Phase 3 deployment on clinical-safety and governance grounds. Full trade-off discussion:
-[`docs/week7_cost_benefit_memo.md`](docs/week7_cost_benefit_memo.md).
+[`docs/week7_cost_benefit_memo.pdf`](week7_cost_benefit_memo.pdf).
